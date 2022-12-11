@@ -1,0 +1,154 @@
+$orangeColor: #FF683F;
+$lightOrangeColor: #FFC7B7;
+$labelColor: #A6A9B9;
+$textColor: #2B2E41;
+$headerHeight: 86px;
+$componentBackground: white;
+.header {
+    background: $componentBackground;
+    .logo {
+        font-family: SuperstarX1;
+        text-transform: uppercase;
+        a {
+            text-decoration: none !important;
+            color: $textColor;
+        }
+        font-size: 20px;
+        img {
+            margin-top: -8px;
+            margin-right: 1em;
+        }
+        span {
+            color: $orangeColor;
+        }
+    }
+    .info {
+        grid-column-gap: 2em;
+        .label {
+            margin-right: 1em;
+        }
+    }
+}
+
+.home-container {
+    grid-row-gap: 1rem;
+}
+
+.component {
+    background: $componentBackground;
+}
+
+.label {
+    color: $labelColor;
+}
+
+.text {
+    color: $textColor;
+}
+
+.small-text {
+    font-size: 0.8rem;
+}
+
+.orange-text {
+    color: $orangeColor;
+}
+
+.light-orange-text {
+    color: $lightOrangeColor;
+}
+
+.progress-back {
+    background: $lightOrangeColor;
+}
+
+.progress-bar {
+    background: $orangeColor;
+}
+
+.table-cell {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    a {
+        color: $orangeColor;
+    }
+}
+
+.btn-primary {
+    background-color: $orangeColor !important;
+    border-color: $orangeColor !important;
+    outline-color: $orangeColor !important;
+}
+
+.pagination {
+    .page-item a,
+    .next a,
+    .previous a {
+        color: $orangeColor;
+    }
+    .disabled a {
+        color: $labelColor;
+    }
+    .selected a {
+        background: $orangeColor;
+        border-color: $orangeColor;
+        color: white;
+    }
+}
+
+.mobile-table {
+    a {
+        color: $orangeColor;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-table {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .normal-table {
+        display: none !important;
+    }
+}
+
+.burn-addresses {
+    a {
+        color: $orangeColor;
+    }
+}
+
+.loading-mask {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+    min-height: 150px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-mask svg {
+    display: block;
+}
+
+.tooltip-container {
+    position: relative;
+}
+
+.tooltip-content {
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    right: 0px;
+    top: 5px;
+    width: max-content;
+}

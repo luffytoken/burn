@@ -1,0 +1,13 @@
+{
+    "short_name": "Luffy Burn",
+    "name": "Luffy Burn",
+    "icons": [{
+        "src": "logo.png",
+        "type": "image/png",
+        "sizes": "68x67"
+    }],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

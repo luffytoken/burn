@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/Poppins-Regular.otf');
+}
+
+@font-face {
+    font-family: 'SuperstarX1';
+    src: url('font/SuperstarX-1.ttf');
+}
+
+@font-face {
+    font-family: 'SuperstarX2';
+    src: url('font/SuperstarX-2.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #EEEEF0;
+}
+
+html {
+    font-size: 15px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
